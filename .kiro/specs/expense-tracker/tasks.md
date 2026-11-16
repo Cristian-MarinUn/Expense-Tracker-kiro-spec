@@ -74,7 +74,7 @@ Las pruebas usan Vitest (`vitest --run`), fast-check (mínimo 100 iteraciones po
     - **Property 6: Validación de fechas de calendario**
     - **Validates: Requirements 1.6, 2.1**
 
-- [-] 3. Checkpoint - Paquete shared
+- [ ] 3. Checkpoint - Paquete shared
   - Ensure all tests pass, ask the user if questions arise.
 
 - [x] 4. Capa de persistencia (Data_Store)

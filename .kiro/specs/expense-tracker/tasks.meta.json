@@ -105,11 +105,6 @@
     ],
     "3. Checkpoint - Paquete shared": [
       {
-        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
-        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
-        "timestamp": 1794854435701
-      },
-      {
         "executionId": "fefb2470-c7f2-4a30-897b-ec24c52e11d3",
         "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
         "timestamp": 1794858047356
@@ -153,6 +148,11 @@
         "executionId": "8411b713-cec7-4b07-bbdc-a6a9ff2b2481",
         "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
         "timestamp": 1794861923040
+      },
+      {
+        "executionId": "8411b713-cec7-4b07-bbdc-a6a9ff2b2481",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794862039515
       }
     ],
     "4.1 Definir los puertos de persistencia y el esquema SQLite": [

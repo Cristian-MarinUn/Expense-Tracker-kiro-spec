@@ -1,0 +1,48 @@
+# Dependencias
+node_modules/
+
+# Salidas de compilación (tsc -b y vite build)
+dist/
+dist-web/
+*.tsbuildinfo
+
+# Bases de datos SQLite y copias de recuperación (datos locales del usuario)
+data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.corrupt-*
+
+# Cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Registros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+
+# Variables de entorno (se conserva la plantilla)
+.env
+.env.*
+!.env.example
+
+# Cachés locales
+.eslintcache
+.vite/
+.cache/
+.npm/
+
+# Editor y sistema operativo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

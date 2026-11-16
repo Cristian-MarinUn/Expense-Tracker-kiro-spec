@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/shared",
+    "packages/server",
+    "packages/client"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "concurrently -k -n server,client -c blue,green \"npm run dev -w @expense-tracker/server\" \"npm run dev -w @expense-tracker/client\"",
+    "start": "npm run build && npm run start -w @expense-tracker/server",
+    "test": "vitest --run",
+    "lint": "eslint . && tsc -b"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "concurrently": "^9.2.5",
+    "eslint": "^9.17.0",
+    "fast-check": "^4.1.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^3.2.4"
+  }
+}

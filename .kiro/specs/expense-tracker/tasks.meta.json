@@ -1,0 +1,641 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Crear el monorepo con npm workspaces y la configuración común": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854434673
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854446235
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854780123
+      }
+    ],
+    "2.1 Implementar `packages/shared/src/errors.ts` y `packages/shared/src/types.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435022
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854785502
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854977177
+      }
+    ],
+    "2.2 Implementar `packages/shared/src/money.ts` con `parseAmount` y `formatCents`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435252
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854983350
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855102735
+      }
+    ],
+    "2.5 Implementar `packages/shared/src/period.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435399
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854983556
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855105362
+      }
+    ],
+    "2.8 Implementar `packages/shared/src/normalize.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435495
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854786084
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854977860
+      }
+    ],
+    "2.10 Implementar `packages/shared/src/validators.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435605
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855110616
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855230888
+      }
+    ],
+    "3. Checkpoint - Paquete shared": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435701
+      },
+      {
+        "executionId": "fefb2470-c7f2-4a30-897b-ec24c52e11d3",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794858047356
+      },
+      {
+        "executionId": "3032d935-b822-425a-8690-2fa2c2010378",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794859677960
+      },
+      {
+        "executionId": "3032d935-b822-425a-8690-2fa2c2010378",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794860012833
+      },
+      {
+        "executionId": "41fa2cb4-3c86-4cb9-bd15-b003d7741e5b",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794860087847
+      },
+      {
+        "executionId": "41fa2cb4-3c86-4cb9-bd15-b003d7741e5b",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794860458720
+      },
+      {
+        "executionId": "fa1ad36e-1fbc-45c0-af3b-e4a31bba54c9",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794860920721
+      },
+      {
+        "executionId": "fa1ad36e-1fbc-45c0-af3b-e4a31bba54c9",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794861120467
+      },
+      {
+        "executionId": "98011a19-3bf7-460c-90aa-fcef135a54fb",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794861819582
+      },
+      {
+        "executionId": "8411b713-cec7-4b07-bbdc-a6a9ff2b2481",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794861923040
+      }
+    ],
+    "4.1 Definir los puertos de persistencia y el esquema SQLite": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435798
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855240885
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855382632
+      }
+    ],
+    "4.2 Implementar los repositorios SQLite": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435902
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855387574
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855652295
+      }
+    ],
+    "4.3 Implementar repositorios en memoria y el envoltorio de fallos": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854435997
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855388545
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855653193
+      }
+    ],
+    "4.4 Implementar la secuencia de arranque (`packages/server/src/persistence/bootstrap.ts`)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436096
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855665187
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856007462
+      }
+    ],
+    "5.1 Implementar las funciones puras en `packages/server/src/domain/pure/`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436194
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855389594
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855654044
+      }
+    ],
+    "6.1 Implementar `packages/server/src/domain/expense-service.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436303
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855666105
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856006468
+      }
+    ],
+    "7.1 Implementar `packages/server/src/domain/category-service.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436425
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855667599
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856004081
+      }
+    ],
+    "8.1 Implementar `packages/server/src/domain/summary-service.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436532
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855668598
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856005055
+      }
+    ],
+    "8.2 Implementar `packages/server/src/domain/budget-service.ts`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436630
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855669307
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856008277
+      }
+    ],
+    "9. Checkpoint - Persistencia y dominio": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436742
+      }
+    ],
+    "10.1 Crear la aplicación Express base y el ErrorMapper": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436852
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856017763
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856312902
+      }
+    ],
+    "10.2 Implementar el router de gastos (`packages/server/src/http/expenses-router.ts`)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854436948
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856317931
+      },
+      {
+        "executionId": "826380fc-3b42-4d49-948d-4f7ef480e2c3",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856547887
+      }
+    ],
+    "10.3 Implementar el router de categorías (`packages/server/src/http/categories-router.ts`)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437062
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856319419
+      },
+      {
+        "executionId": "826380fc-3b42-4d49-948d-4f7ef480e2c3",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856548801
+      }
+    ],
+    "10.4 Implementar el router de resúmenes (`packages/server/src/http/summary-router.ts`)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437156
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856320430
+      },
+      {
+        "executionId": "826380fc-3b42-4d49-948d-4f7ef480e2c3",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856549453
+      }
+    ],
+    "10.5 Implementar el router de presupuestos (`packages/server/src/http/budgets-router.ts`)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437249
+      },
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856321286
+      },
+      {
+        "executionId": "826380fc-3b42-4d49-948d-4f7ef480e2c3",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856550054
+      }
+    ],
+    "10.6 Montar los routers y crear el punto de entrada del servidor": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437349
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856673087
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856989814
+      }
+    ],
+    "11. Checkpoint - API REST": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437469
+      }
+    ],
+    "12.1 Configurar el cliente y crear el ApiClient": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437654
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856994337
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857154264
+      }
+    ],
+    "12.2 Implementar `ExpenseForm`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437749
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857158994
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857293973
+      }
+    ],
+    "12.4 Implementar `DeleteConfirmDialog`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437843
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857159652
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857294133
+      }
+    ],
+    "12.6 Implementar `ExpenseListView`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854437936
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857298045
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857370828
+      }
+    ],
+    "12.8 Implementar `SummaryPanel`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854438028
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857160561
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857294285
+      }
+    ],
+    "12.10 Implementar `CategoryManagerView`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854438124
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857161203
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857294449
+      }
+    ],
+    "12.12 Implementar `BudgetManagerView`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854438217
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857161785
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857294715
+      }
+    ],
+    "13.1 Ensamblar la aplicación cliente en `App.tsx`": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854438317
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857374233
+      },
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857616712
+      }
+    ],
+    "14. Checkpoint final - Ensure all tests pass": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854438409
+      }
+    ],
+    "1. Estructura del monorepo y tooling": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794854780306
+      }
+    ],
+    "2. Paquete shared: código puro compartido cliente/servidor": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855231060
+      }
+    ],
+    "5. Funciones puras de dominio (modelos de referencia)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794855654141
+      }
+    ],
+    "7. CategoryService (Category_Manager)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856004251
+      }
+    ],
+    "6. ExpenseService (Expense_Manager)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856006559
+      }
+    ],
+    "4. Capa de persistencia (Data_Store)": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856007562
+      }
+    ],
+    "8. SummaryService y BudgetService": [
+      {
+        "executionId": "360bce23-7a94-4e98-9b15-b1a790d9b81e",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856008395
+      }
+    ],
+    "10. API REST con Express": [
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794856989953
+      }
+    ],
+    "12. Frontend React": [
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857370976
+      }
+    ],
+    "13. Integración final": [
+      {
+        "executionId": "358b798e-be3a-46c3-84be-4a1a067d7eca",
+        "chatSessionId": "sess_86da4730-95a4-458c-84c4-912c83b8f629",
+        "timestamp": 1794857616936
+      }
+    ]
+  }
+}
